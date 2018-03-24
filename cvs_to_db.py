@@ -4,6 +4,7 @@
 
 import MySQLdb as mdb
 import csv
+import logging
 
 def storeFunction():
     con = mdb.connect('localhost', \
